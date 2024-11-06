@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-poc",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspace @monorepo-poc/app start",
+    "build": "yarn workspace @monorepo-poc/app build",
+    "build:number-format": "yarn workspace @monorepo-poc/react-number-format build"
+  }
+}
